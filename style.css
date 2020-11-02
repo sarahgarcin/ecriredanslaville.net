@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Inika:wght@400;700&display=swap');
+
+
+@font-face {
+  font-family: 'ortica';
+  src: url('fonts/Ortica-Light.woff2') format('woff2'), /* Super Modern Browsers */
+       url('fonts/Ortica-Light.woff') format('woff'); /* Pretty Modern Browsers */
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: 'ortica';
+  src: url('fonts/Ortica-Bold.woff2') format('woff2'), /* Super Modern Browsers */
+       url('fonts/Ortica-Bold.woff') format('woff'); /* Pretty Modern Browsers */
+  font-weight: bold;
+}
+
+
+* {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale; 
+}
+
+body {
+  margin: 0;
+  line-height: 1.2; 
+  font-size: 12px;
+  font-family: 'ortica', serif;
+  overflow-x: hidden;
+  background-color: #D5EEFF;
+  color: #007ee6;
+}
+
+header{
+	text-align: center; 
+	padding: 2em;
+	/*border-bottom: 1px solid #007ee6;*/
+	width: 80%; 
+	margin: auto;
+}
+
+h1{
+	font-size: 4.5em;
+	margin:0;
+	font-weight: normal;
+}
+
+h2{
+	font-size: 2em; 
+	margin:0;
+	font-weight: normal;
+}
+
+figure{
+	margin:0;
+}
+
+img{
+	max-width: 100%;
+}
+
+a{
+	color: #007ee6;
+	text-decoration: none;
+}
+
+main{
+	width: 80%;
+	margin: auto; 
+	background: url(ecriredanslaville.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 70vh;
+	overflow: hidden; 
+	position: relative;
+}
+
+a{
+	font-size: 1.5em;
+	background-color: #D5EEFF;
+	border: 1px solid #007ee6;
+	display: inline-block;
+	padding: 0.7em;
+	margin: 0em 0.5em 0;
+	/*font-weight: bold;*/
+}
+
+a:hover{
+		background-color: #007ee6;
+		color: #FFF;
+}
+
+.btns{
+/*	display: flex;
+	align-items: center;
+ 	justify-content: center;
+*/
+	position: absolute;
+	bottom: 0;
+}
+
+@media only screen and (max-width: 48em) {
+	main, header{
+		width: 100%;
+	}
+	h1{
+		font-size: 3.5em;
+	}
+
+	h2{
+		font-size: 1.8em; 
+	}
+}
+
+
+
+
